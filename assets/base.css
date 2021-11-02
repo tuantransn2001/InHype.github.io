@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+html{
+    font-family: 'Nunito', sans-serif;
+}
+/* =================================== Font =================================== */
+:root{
+    --primary-color-- : #2568EF;
+    --second-primary-color--: #FF3366;
+    --title-color-- : #0F0E0E;
+    --subtitle-color--: #9F9F9F;
+    --gray-color--: #e0dede;
+    --white-color-- : #FFFFFF;
+    --green--color--: #4cc493;
+    --button-hover--: #48494b;
+}
+:root{
+    --h1-heading--: 36px;
+    --h1-line-height--: 51px;
+    --h2-heading--: 22px;
+    --h3-heading--: 18px;
+    --h4-heading--: 16px;
+    --paragraph-desc--: 15px;
+    --hagtag--: 12px;
+}
+:root{
+    --semi-bold--: 600;
+    --bold--: 700;
+}
+:root{
+    --wide-- : 1140px
+}
+/* =================================== Grid =================================== */
+.grid{
+    width: 100%;
+    display: block;
+    padding: 0;
+}
+.wide{
+    width: 1140px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.c-1{
+    flex: 1 0 8.3333%;
+    max-width:  8.3333%;
+}
+.c-2{
+    flex: 1 0 16.6667%;
+    max-width: 16.6667%;
+}
+.c-2-4{
+    flex: 1 0 20%;
+    max-width: 20%;
+}
+.c-2-5{
+    flex: 1 0 20.833%;
+    max-width: 20.833%;
+}
+.c-3{
+    flex: 1 0 25%;
+    max-width: 25%;
+}
+.c-4{
+    flex: 1 0 33.3333%;
+    max-width: 33.3333%;
+}
+.c-5{
+    flex: 1 0 41.6667%;
+    max-width: 41.6667%;
+}
+.c-6{
+    flex: 1 0 50%;
+    max-width: 50%;
+}
+.c-7{
+    flex: 1 0 58.3333%;
+    max-width: 58.3333%;
+}
+.c-8{
+    flex: 1 0 66.6667%;
+    max-width: 66.6667%;
+}
+.c-9{
+    flex: 1 0 75%;
+    max-width: 75%;
+}
+.c-12{
+    flex: 1 0 100%;
+    max-width: 100%;
+}
+.gutter{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* =================================== Hagtag =================================== */
+.hagtag{
+    height: 28px;
+    line-height: 28px;
+    padding: 1px 15px 1px 10px;
+    color: var(--title-color--);
+    font-size: 14px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background-color: white;
+    border-radius: 30px;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+.hagtag__dot{
+    width: 14px;
+    height: 14px;
+    background-color: #994DB1;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.hagtag__text{
+    font-size: 14px;
+    color: #0F0E0E;
+    transition: all ease .25s;
+}
+.hagtag:hover .hagtag__text{
+    color: var(--primary-color--);
+}
+.purple__2{
+    background-color: #994db1!important;
+}
+.blue{
+    background-color: var(--primary-color--)!important;
+}
+.blue__2{
+    background-color: #0D30C3!important;
+}
+.purple{
+    background-color: #c74970!important;
+}
+.orange{
+    background-color: #ED7E4F!important;
+}
+.white__color{
+    color: var(--white-color--)!important;  
+}
+.mb-0{
+    margin-bottom: 0!important;
+}
+.mb-20{
+    margin-bottom: 20px!important;
+}
+.mb-10{
+    margin-bottom: 10px!important;
+}
+.mb-25{
+    margin-bottom: 25px!important;
+}
+.mb-30{
+    margin-bottom: 30px!important;
+}
+.mb-40{
+    margin-bottom: 40px!important;
+}
+.mb-50{
+    margin-bottom: 50px!important; 
+}
+.mb-60{
+    margin-bottom: 60px!important;
+}
+.mb-70{
+    margin-bottom: 70px!important;
+}
+.mb-80{
+    margin-bottom: 80px!important;
+}
+.post__block__title{
+    margin-bottom: 40px!important;
+}
+.post__title{
+    font-size: var(--h3-heading--);
+    color: var(--title-color--);
+    font-weight: var(--bold--);
+    line-height: 1.25rem;
+}
+.post__author{
+    font-size: 12px;
+    font-weight: var(--bold--);
+    color: var(--subtitle-color--);
+}
+.post__author__link{
+    color: var(--title-color--);
+}
+.post__subtitle{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.post__date,
+.post__time{
+    font-size: 12px;
+    color: #9F9F9F;
+}
+.post__icon{
+    font-size: 6px;
+    margin: 0 7px;
+    transform: translateY(-1px);
+}
+.text-center{
+    text-align: center!important;
+}
+.h3{
+    font-size: 30px;
+    color: var(--title-color--);
+    font-weight: var(--bold--);
+    line-height: 1.25;
+}
+.h4{
+    font-size: 12px;
+    margin-top: 10px;
+    color: var(--title-color--);
+    font-weight: var(--bold--);
+    line-height: 1.25;
+}
+.f-16{
+    font-size: 16px!important;
+}
+.f-15{
+    font-size: 15px!important;
+}
+.f-22{
+    font-size: 22px!important;
+}
+.f-w-r{
+    font-weight: 400!important;
+}
+/* =================================== Animation =================================== */
+@keyframes show-up{
+    from{
+        display: none;
+        opacity: 0;
+    }
+    to{
+        display: block;
+        opacity: 1;
+    }
+}
