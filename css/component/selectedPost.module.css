@@ -1,0 +1,24 @@
+.selected__post{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-bottom: 30px;
+}
+
+.video__selected__left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video__selected__left__text:hover{
+    color: var(--primary-color--);
+}
+.seclected__video__item__right__img__wrapper{
+    max-height: 107px;
+}
+.video__selected__rest{
+    min-height: 360px;
+}
+.video__selected__post__item__data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

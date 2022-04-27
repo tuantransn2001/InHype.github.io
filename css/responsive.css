@@ -42,8 +42,8 @@
     .header__bottomline__wrapper.grid.wide{
         display: none;
     }
-    .slides{
-       
+    .slide{
+        padding-left: 0;
     }
     .slide__dot{
         width: 256px;
@@ -183,11 +183,12 @@
     .menu__icon--active{
         transform: rotate(90deg);
     }
+    
     @keyframes menu-effect {
         from{
             display: none;
             opacity: 0;
-        to{
+        }to{
             display: block;
             opacity: 1;
         }

@@ -1,0 +1,34 @@
+.video__item__left{
+    background-image: url(../../assets/img/video/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    position: relative;
+}
+.video__item__modal{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+.video__item__left:hover .video__item__modal{
+    background-color: rgba(0,0,0,0.6);
+}
+.video__row__mt{
+    min-height: 286px;
+}
+.video__item__right__top__row__mt{
+    min-height: 36px;
+}
+.video__item__right__top{
+    background-image: url(../../assets/img/video/2.jpg);
+}
+.video__item__right__bottom{
+    background-image: url(../../assets/img/video/3.jpg);
+}
+.video__item__left:hover .post__item__data{
+    transform: translateY(-20px);
+}

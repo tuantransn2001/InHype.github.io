@@ -1,0 +1,28 @@
+/*  <!-- ====================================== Subcribe ====================================== --> */
+.subcribe__block{
+    background-image: url(../../assets/img/subcribe/1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 1140px;
+    margin: 0 auto;
+    min-height: 317px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.subcribe__block__input{
+    display: flex;
+    height: 44px;
+}
+.subcribe__block__input input{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+    min-width: 300px;
+    font-size: 1rem;
+    background-color: white;
+    margin-right: 15px;
+}

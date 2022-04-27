@@ -1,0 +1,15 @@
+.selected{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.selected__item{
+}
+.selected__item__img__wrapper{
+    height: 568px;
+}
+
+.selected__data__title:hover{
+    color: var(--primary-color--);
+}
+.seclected__item__right__img__wrapper{
+    height: 132px;
+}

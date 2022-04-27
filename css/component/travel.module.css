@@ -1,0 +1,24 @@
+/*  <!-- ====================================== Travel ====================================== --> */
+.travel__item{
+    background-image: url(../../assets/img/travel/1.jpg);
+    max-height: 400px;
+}
+.travel__item__2{
+    background-image: url(../../assets/img/travel/2.jpg);
+}
+.travel__item__3{
+    background-image: url(../../assets/img/travel/3.jpg);
+}
+.travel__item__4{
+    background-image: url(../../assets/img/travel/4.jpg);
+}
+.travel__item__5{
+    background-image: url(../../assets/img/travel/5.jpg);
+}
+.travel__item__6{
+    background-image: url(../../assets/img/travel/6.jpg);
+}
+
+.text__center__title__wrapper{
+    text-align: center;
+}

@@ -1,0 +1,15 @@
+/* ==========================================High Light ============================= */
+.highlight__today{
+    background-color: var(--gray-color--);
+    padding: 40px 0 0;
+    overflow: hidden;
+}
+.today__highlight__item{
+    min-width: 288px;
+}
+.tablet__highlight__replace{
+    display: none;
+}
+.inhype__post__list{
+    width: 1823px;
+}

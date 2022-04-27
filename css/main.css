@@ -1,0 +1,45 @@
+@import '../css/reset.css';
+@import '../css/base.css';
+@import '../css/component/header.module.css';
+@import '../css/component/slideShow.module.css';
+@import '../css/component/content.module.css';
+@import '../css/component/showCase.module.css';
+@import '../css/component/post.module.css'; 
+@import '../css/component/hightLight.module.css';
+@import '../css/component/artCulture.module.css';
+@import '../css/component/selected.module.css';
+@import '../css/component/travel.module.css';
+@import '../css/component/subcribe.module.css';
+@import '../css/component/categories.module.css';
+@import '../css/component/2ndSlideShow.module.css';
+@import '../css/component/video.module.css';
+@import '../css/component/selectedPost.module.css';
+@import '../css/component/todayTrending.module.css';
+@import '../css/component/footerBackground.module.css'; 
+@import '../css/component/catapultCookieBar.module.css';
+#app{
+    max-width: 100vw;
+}
+.tablet__header__main{
+    display: none;
+}
+.scroll__to__top{
+    width: 44px;
+    height: 44px;
+    border-radius: 5px;
+    background-color: var(--primary-color--);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 60px;
+    bottom: 60px;
+}
+.scroll__to__top:hover{
+    background-color: var(--button-hover--);
+}
+.scroll__to__top i{
+    color: white;
+    font-size: 0.6rem;
+}
+@import '../css/responsive.css';

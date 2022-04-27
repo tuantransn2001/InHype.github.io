@@ -183,6 +183,12 @@ html{
     font-weight: var(--bold--);
     line-height: 1.25rem;
 }
+.post__title__hover{
+    transition: all ease 0.25s;
+}
+.post__title__hover:hover{
+    color: var(--primary-color--);
+}
 .post__author{
     font-size: 12px;
     font-weight: var(--bold--);
